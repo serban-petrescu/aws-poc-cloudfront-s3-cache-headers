@@ -2,7 +2,7 @@
 
 Applying the terraform stack in this repository will create a CF distribution backed by an S3 bucket with a simple HTML file and a linked script. These files have explicit cache-control and expiration metadata specified, which should translate to HTTP response headers.
 
-The core point is in [main.tf#108](./blob/master/main.tf#L108).
+The core point is in [main.tf#108](./main.tf#L108).
 
 ### Results
 Opening the CloudFront distribution loads the simple HTML file:
